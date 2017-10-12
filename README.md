@@ -30,7 +30,7 @@ cd CarND-Capstone
 git submodule init
 git submodule update
 ```
-3. Make sure that the submodule is contains the latest updates
+3. Make sure that the submodule contains the latest updates
 ```
 git pull origin master
 ```
