@@ -30,19 +30,23 @@ cd CarND-Capstone
 git submodule init
 git submodule update
 ```
+3. Make sure that the submodule is contains the latest updates
+```
+git pull origin master
+```
 
-3. Install python dependencies
+4. Install python dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4. Make and run styx
+5. Make and run styx
 ```bash
 cd ros
 catkin_make
 source devel/setup.sh
 roslaunch launch/styx.launch
 ```
-5. Run the simulator
+6. Run the simulator
 
 ### Native Installation
 
